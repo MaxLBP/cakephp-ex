@@ -1,3 +1,5 @@
 Hello World !
 
-<?php debug(get_defined_vars()); ?>
+<?php debug(getenv('CORE_DEBUG_BUILD')); ?>
+
+<?php debug(getenv('CORE_DEBUG_RUNTIME')); ?>
